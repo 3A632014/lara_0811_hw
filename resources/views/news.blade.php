@@ -64,6 +64,8 @@
     </style>
 </head>
 <body>
+<a href="{{route('home.index')}}">首頁</a>
+<a href="{{route('about.index')}}">關於本站</a>
 <div class="flex-center position-ref full-height">
     @if (Route::has('login'))
         <div class="top-right links">
